@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E0DEF5918E33ACE003A7B2E /* Anästhesiebeginn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E0DEF5518E33ACE003A7B2E /* Anästhesiebeginn.mp3 */; };
+		9E0DEF5A18E33ACE003A7B2E /* Fehler.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E0DEF5618E33ACE003A7B2E /* Fehler.mp3 */; };
+		9E0DEF5B18E33ACE003A7B2E /* FreigabeAnästhesie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E0DEF5718E33ACE003A7B2E /* FreigabeAnästhesie.mp3 */; };
+		9E0DEF5C18E33ACE003A7B2E /* Intubation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E0DEF5818E33ACE003A7B2E /* Intubation.mp3 */; };
+		9E27CEB418E4836800988A04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EAE32B718E330A300C9064F /* Images.xcassets */; };
+		9E27CEB918E4871400988A04 /* Icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E27CEB618E4871400988A04 /* Icon-29@2x.png */; };
+		9E27CEBE18E48BF000988A04 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E27CEBC18E48BF000988A04 /* Icon-40@2x.png */; };
+		9E27CEBF18E48BF000988A04 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E27CEBD18E48BF000988A04 /* Icon-60@2x.png */; };
+		9E27CEC118E4982900988A04 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E27CEC018E4982900988A04 /* LaunchImage.png */; };
+		9EAE32A018E330A300C9064F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EAE329F18E330A300C9064F /* Foundation.framework */; };
+		9EAE32A218E330A300C9064F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EAE32A118E330A300C9064F /* CoreGraphics.framework */; };
+		9EAE32A418E330A300C9064F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EAE32A318E330A300C9064F /* UIKit.framework */; };
+		9EAE32AA18E330A300C9064F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EAE32A818E330A300C9064F /* InfoPlist.strings */; };
+		9EAE32AC18E330A300C9064F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAE32AB18E330A300C9064F /* main.m */; };
+		9EAE32B018E330A300C9064F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAE32AF18E330A300C9064F /* AppDelegate.m */; };
+		9EAE32B318E330A300C9064F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EAE32B118E330A300C9064F /* Main.storyboard */; };
+		9EAE32B618E330A300C9064F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAE32B518E330A300C9064F /* ViewController.m */; };
+		9EAE32BF18E330A300C9064F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EAE32BE18E330A300C9064F /* XCTest.framework */; };
+		9EAE32C018E330A300C9064F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EAE329F18E330A300C9064F /* Foundation.framework */; };
+		9EAE32C118E330A300C9064F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EAE32A318E330A300C9064F /* UIKit.framework */; };
+		9EAE32DD18E3333900C9064F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EAE32DC18E3333900C9064F /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EAE32C218E330A300C9064F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EAE329418E330A200C9064F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EAE329B18E330A200C9064F;
+			remoteInfo = PlaySound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E0DEF5518E33ACE003A7B2E /* Anästhesiebeginn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Anästhesiebeginn.mp3"; sourceTree = "<group>"; };
+		9E0DEF5618E33ACE003A7B2E /* Fehler.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fehler.mp3; sourceTree = "<group>"; };
+		9E0DEF5718E33ACE003A7B2E /* FreigabeAnästhesie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "FreigabeAnästhesie.mp3"; sourceTree = "<group>"; };
+		9E0DEF5818E33ACE003A7B2E /* Intubation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Intubation.mp3; sourceTree = "<group>"; };
+		9E27CEB618E4871400988A04 /* Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29@2x.png"; sourceTree = "<group>"; };
+		9E27CEBC18E48BF000988A04 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		9E27CEBD18E48BF000988A04 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		9E27CEC018E4982900988A04 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		9EAE329C18E330A300C9064F /* WOZSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WOZSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EAE329F18E330A300C9064F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9EAE32A118E330A300C9064F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9EAE32A318E330A300C9064F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9EAE32A718E330A300C9064F /* WOZSound-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WOZSound-Info.plist"; sourceTree = "<group>"; };
+		9EAE32A918E330A300C9064F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9EAE32AB18E330A300C9064F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9EAE32AD18E330A300C9064F /* WOZSound-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WOZSound-Prefix.pch"; sourceTree = "<group>"; };
+		9EAE32AE18E330A300C9064F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9EAE32AF18E330A300C9064F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9EAE32B218E330A300C9064F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EAE32B418E330A300C9064F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9EAE32B518E330A300C9064F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9EAE32B718E330A300C9064F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9EAE32BD18E330A300C9064F /* WOZSoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WOZSoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EAE32BE18E330A300C9064F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9EAE32DC18E3333900C9064F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EAE329918E330A200C9064F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAE32DD18E3333900C9064F /* AVFoundation.framework in Frameworks */,
+				9EAE32A218E330A300C9064F /* CoreGraphics.framework in Frameworks */,
+				9EAE32A418E330A300C9064F /* UIKit.framework in Frameworks */,
+				9EAE32A018E330A300C9064F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAE32BA18E330A300C9064F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAE32BF18E330A300C9064F /* XCTest.framework in Frameworks */,
+				9EAE32C118E330A300C9064F /* UIKit.framework in Frameworks */,
+				9EAE32C018E330A300C9064F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EAE329318E330A200C9064F = {
+			isa = PBXGroup;
+			children = (
+				9EAE32A518E330A300C9064F /* PlaySound */,
+				9EAE329E18E330A300C9064F /* Frameworks */,
+				9EAE329D18E330A300C9064F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EAE329D18E330A300C9064F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EAE329C18E330A300C9064F /* WOZSound.app */,
+				9EAE32BD18E330A300C9064F /* WOZSoundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EAE329E18E330A300C9064F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EAE32DC18E3333900C9064F /* AVFoundation.framework */,
+				9EAE329F18E330A300C9064F /* Foundation.framework */,
+				9EAE32A118E330A300C9064F /* CoreGraphics.framework */,
+				9EAE32A318E330A300C9064F /* UIKit.framework */,
+				9EAE32BE18E330A300C9064F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EAE32A518E330A300C9064F /* PlaySound */ = {
+			isa = PBXGroup;
+			children = (
+				9EAE32AE18E330A300C9064F /* AppDelegate.h */,
+				9EAE32AF18E330A300C9064F /* AppDelegate.m */,
+				9EAE32B118E330A300C9064F /* Main.storyboard */,
+				9EAE32B418E330A300C9064F /* ViewController.h */,
+				9EAE32B518E330A300C9064F /* ViewController.m */,
+				9EAE32B718E330A300C9064F /* Images.xcassets */,
+				9EAE32A618E330A300C9064F /* Supporting Files */,
+			);
+			path = PlaySound;
+			sourceTree = "<group>";
+		};
+		9EAE32A618E330A300C9064F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E27CEC018E4982900988A04 /* LaunchImage.png */,
+				9E27CEB618E4871400988A04 /* Icon-29@2x.png */,
+				9E27CEBC18E48BF000988A04 /* Icon-40@2x.png */,
+				9E27CEBD18E48BF000988A04 /* Icon-60@2x.png */,
+				9E0DEF5518E33ACE003A7B2E /* Anästhesiebeginn.mp3 */,
+				9E0DEF5618E33ACE003A7B2E /* Fehler.mp3 */,
+				9E0DEF5718E33ACE003A7B2E /* FreigabeAnästhesie.mp3 */,
+				9E0DEF5818E33ACE003A7B2E /* Intubation.mp3 */,
+				9EAE32A718E330A300C9064F /* WOZSound-Info.plist */,
+				9EAE32A818E330A300C9064F /* InfoPlist.strings */,
+				9EAE32AB18E330A300C9064F /* main.m */,
+				9EAE32AD18E330A300C9064F /* WOZSound-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EAE329B18E330A200C9064F /* WOZSound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EAE32CE18E330A300C9064F /* Build configuration list for PBXNativeTarget "WOZSound" */;
+			buildPhases = (
+				9EAE329818E330A200C9064F /* Sources */,
+				9EAE329918E330A200C9064F /* Frameworks */,
+				9EAE329A18E330A200C9064F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WOZSound;
+			productName = PlaySound;
+			productReference = 9EAE329C18E330A300C9064F /* WOZSound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EAE32BC18E330A300C9064F /* WOZSoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EAE32D118E330A300C9064F /* Build configuration list for PBXNativeTarget "WOZSoundTests" */;
+			buildPhases = (
+				9EAE32B918E330A300C9064F /* Sources */,
+				9EAE32BA18E330A300C9064F /* Frameworks */,
+				9EAE32BB18E330A300C9064F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EAE32C318E330A300C9064F /* PBXTargetDependency */,
+			);
+			name = WOZSoundTests;
+			productName = PlaySoundTests;
+			productReference = 9EAE32BD18E330A300C9064F /* WOZSoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EAE329418E330A200C9064F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "de.hs-fulda.informatik";
+				TargetAttributes = {
+					9EAE329B18E330A200C9064F = {
+						DevelopmentTeam = FF6XMVP65Y;
+					};
+					9EAE32BC18E330A300C9064F = {
+						TestTargetID = 9EAE329B18E330A200C9064F;
+					};
+				};
+			};
+			buildConfigurationList = 9EAE329718E330A200C9064F /* Build configuration list for PBXProject "WOZSound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EAE329318E330A200C9064F;
+			productRefGroup = 9EAE329D18E330A300C9064F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EAE329B18E330A200C9064F /* WOZSound */,
+				9EAE32BC18E330A300C9064F /* WOZSoundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EAE329A18E330A200C9064F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0DEF5A18E33ACE003A7B2E /* Fehler.mp3 in Resources */,
+				9E27CEBF18E48BF000988A04 /* Icon-60@2x.png in Resources */,
+				9E0DEF5B18E33ACE003A7B2E /* FreigabeAnästhesie.mp3 in Resources */,
+				9E27CEB418E4836800988A04 /* Images.xcassets in Resources */,
+				9E27CEBE18E48BF000988A04 /* Icon-40@2x.png in Resources */,
+				9EAE32AA18E330A300C9064F /* InfoPlist.strings in Resources */,
+				9E27CEB918E4871400988A04 /* Icon-29@2x.png in Resources */,
+				9EAE32B318E330A300C9064F /* Main.storyboard in Resources */,
+				9E0DEF5C18E33ACE003A7B2E /* Intubation.mp3 in Resources */,
+				9E0DEF5918E33ACE003A7B2E /* Anästhesiebeginn.mp3 in Resources */,
+				9E27CEC118E4982900988A04 /* LaunchImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAE32BB18E330A300C9064F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EAE329818E330A200C9064F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAE32B618E330A300C9064F /* ViewController.m in Sources */,
+				9EAE32B018E330A300C9064F /* AppDelegate.m in Sources */,
+				9EAE32AC18E330A300C9064F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAE32B918E330A300C9064F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EAE32C318E330A300C9064F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EAE329B18E330A200C9064F /* WOZSound */;
+			targetProxy = 9EAE32C218E330A300C9064F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EAE32A818E330A300C9064F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EAE32A918E330A300C9064F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9EAE32B118E330A300C9064F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EAE32B218E330A300C9064F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EAE32CC18E330A300C9064F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9EAE32CD18E330A300C9064F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EAE32CF18E330A300C9064F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlaySound/WOZSound-Prefix.pch";
+				INFOPLIST_FILE = "PlaySound/WOZSound-Info.plist";
+				PRODUCT_NAME = WOZSound;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9EAE32D018E330A300C9064F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlaySound/WOZSound-Prefix.pch";
+				INFOPLIST_FILE = "PlaySound/WOZSound-Info.plist";
+				PRODUCT_NAME = WOZSound;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9EAE32D218E330A300C9064F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlaySound.app/PlaySound";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlaySound/PlaySound-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PlaySoundTests/WOZSoundTests-Info.plist";
+				PRODUCT_NAME = WOZSoundTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9EAE32D318E330A300C9064F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlaySound.app/PlaySound";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlaySound/PlaySound-Prefix.pch";
+				INFOPLIST_FILE = "PlaySoundTests/WOZSoundTests-Info.plist";
+				PRODUCT_NAME = WOZSoundTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EAE329718E330A200C9064F /* Build configuration list for PBXProject "WOZSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EAE32CC18E330A300C9064F /* Debug */,
+				9EAE32CD18E330A300C9064F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EAE32CE18E330A300C9064F /* Build configuration list for PBXNativeTarget "WOZSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EAE32CF18E330A300C9064F /* Debug */,
+				9EAE32D018E330A300C9064F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EAE32D118E330A300C9064F /* Build configuration list for PBXNativeTarget "WOZSoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EAE32D218E330A300C9064F /* Debug */,
+				9EAE32D318E330A300C9064F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EAE329418E330A200C9064F /* Project object */;
+}
