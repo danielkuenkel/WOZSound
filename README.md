@@ -7,4 +7,4 @@ The thesis was written at the Hochschule Fulda - University of Applied Sciences 
 
 WOZSound is an application with which it is possible to play spezific sounds during a Wizard of Oz experiment with a finger tap.
 
-Let me know if there are problems. I appreciate your feedback.
+Let me know if there are problems. I will appreciate about your feedback.
